@@ -88,9 +88,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
       <header className="flex items-center justify-between bg-white px-6 py-4 shadow-md">
-        <h1 className="text-xl font-semibold text-blue-600">
-          Trafik İşareti Algılama
-        </h1>
+        <h1 className="text-xl font-semibold">Trafik İşareti Algılama</h1>
         <div className="flex items-center gap-4">
           <button
             onClick={handleStop}
